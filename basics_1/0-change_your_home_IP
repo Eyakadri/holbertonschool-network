@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A script to change localhost addresses
 
 cp /etc/hosts /etc/hosts.bak
 echo "127.0.0.2    localhost" >> /etc/hosts
